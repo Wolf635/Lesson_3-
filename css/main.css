@@ -1,0 +1,126 @@
+[class*="__text"] {
+  font-size: 100px;
+  color: #ccc;
+}
+#two.title span {
+  font-size: 58px;
+  color: #475a58;
+}
+#two span {
+  font-size: 98px;
+  color: #18b5a4;
+}
+h1 span {
+  font-size: 36px;
+  color: #ccc;
+}
+
+.title {
+  font-size: 60px;
+  color: rgb(248, 82, 82);
+}
+h1 {
+  font-size: 16px;
+  color: rgba(204, 204, 204, 0.596);
+}
+/* ========================================================================== */
+#one .text span {
+  font-size: 40px;
+  color: rgb(255, 0, 106);
+}
+#one .text {
+  font-size: 40px;
+  color: rgb(21, 255, 0);
+}
+#one p {
+  font-size: 40px;
+  color: rgb(255, 153, 0);
+}
+#granta.text.text-header.text-2 span {
+  font-size: 35px;
+  color: rgb(66, 223, 27);
+}
+#granta.text.text-header span {
+  font-size: 35px;
+  color: rgb(235, 33, 184);
+}
+#granta.text span {
+  font-size: 35px;
+  color: rgb(7, 71, 167);
+}
+#granta span {
+  font-size: 35px;
+  color: rgb(79, 167, 7);
+}
+.text.text-header span {
+  font-size: 35px;
+  color: rgb(167, 7, 7);
+}
+.text-header span {
+  font-size: 35px;
+  color: #000;
+}
+.text a {
+  font-size: 30px;
+  color: rgb(255, 0, 140);
+}
+.text-main .text span {
+  font-size: 82px;
+  color: rgba(35, 63, 18, 0.993);
+}
+.text-main .text {
+  font-size: 19px;
+  color: rgba(231, 3, 3, 0.993);
+}
+.text.text-header {
+  font-size: 25px;
+  color: rgb(92, 158, 149);
+}
+.text {
+  font-size: 20px;
+  color: rgb(0, 140, 255);
+}
+/* ============================================================================ */
+.evidence mark {
+  font-size: 38px;
+  color: #d6350d;
+}
+.evidence {
+  font-size: 30px;
+  color: #9b70eb;
+}
+p mark {
+  font-size: 45px;
+  color: #2f077a;
+}
+p {
+  font-size: 20px;
+  color: #5e5373;
+}
+
+/* Обращение только к первому уровню вложенности */
+.block > p {
+  font-size: 70px;
+  color: #475a58;
+}
+
+/* Обращаемся только к первому 
+	следующему объекту того же уровня 
+*/
+.block + p {
+  font-size: 10px;
+  color: #039485;
+}
+
+/* Обращаемся ко всем следующим объектам того же уровня */
+.block ~ p {
+  font-size: 40px;
+  color: #039485;
+}
+.footer {
+}
+
+/* Используем селектор атрибута */
+[class*="-text"] {
+  /* color: red; */
+}
